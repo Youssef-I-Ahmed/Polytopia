@@ -1,28 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="Yousef Ismail Ahmed" />
-    <meta name="generator" content="Hugo 0.98.0" />
-    <title>Polytopia</title>
-    <!-- Favicon -->
-    <link href="assets/images/poly.ico" rel="shortcut icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/dist/css/owl.carousel.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="Yousef Ismail Ahmed" />
+  <meta name="generator" content="Hugo 0.98.0" />
+  <title>Polytopia</title>
+  <!-- Favicon -->
+  <link href="assets/images/poly.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <style></style>
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/dist/css/owl.carousel.min.css" />
 
-    <!-- Custom styles for this template -->
-    <link href="assets/dist/css/styles.css" rel="stylesheet" />
-  </head>
+  <style></style>
 
-  <body>
-    <header>
-   <nav class="navbar navbar-expand-lg">
+  <!-- Custom styles for this template -->
+  <link href="assets/dist/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/polylogowhite.png" alt="Polytopia Logo" />
@@ -33,6 +34,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="index.html" data-key="nav-home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" data-key="nav-about">About</a></li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="products.html" id="ProductDropdown" role="button"
                 data-bs-toggle="dropdown" data-key="nav-products">
@@ -51,10 +54,9 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#about" data-key="nav-about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact" data-key="nav-contact">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="#documents" data-key="nav-documents">Documents</a></li>
-            <li class="nav-item"><a class="nav-link" href="#catalog" data-key="nav-catalog">Catalog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" data-key="nav-contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="documents.html" data-key="nav-documents">Documents</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html" data-key="nav-catalog">Catalog</a></li>
 
 
             <li class="nav-item dropdown">
@@ -82,19 +84,18 @@
         </div>
       </div>
     </nav>
-    </header>
+  </header>
+  <main>
+    <!-- Page Preloder -->
+    <div id="preloder"><img src="assets/images/poly.ico" alt="Loading" class="loader" /></div>
+    <!---End---->
 
-    <main>
-      <!-- Page Preloder -->
-      <div id="preloder"><img src="assets/images/poly.ico" alt="Loading" class="loader" /></div>
-      <!---End---->
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" onclick="scrollToTop()">▲</button>
+    <!----End Scroll to Top Button-->
 
-      <!-- Scroll to Top Button -->
-      <button id="scrollTopBtn" onclick="scrollToTop()">▲</button>
-      <!----End Scroll to Top Button-->
-
-      <!-------coursel------->
-      <!-------
+    <!-------coursel------->
+    <!-------
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -147,313 +148,259 @@
       </div>
 ------>
 
-      <!---end---->
+    <!---end---->
 
-      <!--- Video Section --->
-      <section class="video-section ss-style-roundedsplit">
-        <video autoplay muted loop>
-          <source src="assets/images/video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div class="video-overlay">
-          <h1 data-key="video-title" style="font-size: 50px">Welcome to Polytopia</h1>
-          <h3 data-key="video-title1">a leader in plastic manufacturing and recycling.</h3>
-          <p data-key="video-title2" style="margin: -1px">
-            Your premier destination for high-quality polymers tailored to meet the diverse needs of industries
-            worldwide.
-          </p>
-          <p data-key="video-title2-1" style="margin: -1px">
-            As a leading supplier in the Egyptian polymers market, we take pride in delivering cutting-edge solutions
-            that redefine standards of excellence.
-          </p>
-          <p data-key="video-title2-2" style="margin: -1px">
-            We offer a comprehensive range of polymers designed to address the unique requirements of your applications.
-          </p>
-          <div class="text-center">
-            <a href="#toscorllbt" class="btn" data-key="learn-more">Learn More</a>
-            <a href="#toscorllbt" class="btn btn2" data-key="learn-more">Learn More</a>
-          </div>
+    <!--- Video Section --->
+    <section class="video-section ss-style-roundedsplit">
+      <video autoplay muted loop>
+        <source src="assets/images/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h1 data-key="video-title" style="font-size: 50px">Welcome to Polytopia</h1>
+        <h3 data-key="video-title1">a leader in plastic manufacturing and recycling.</h3>
+        <p data-key="video-title2" style="margin: -1px">
+          Your premier destination for high-quality polymers tailored to meet the diverse needs of industries
+          worldwide.
+        </p>
+        <p data-key="video-title2-1" style="margin: -1px">
+          As a leading supplier in the Egyptian polymers market, we take pride in delivering cutting-edge solutions
+          that redefine standards of excellence.
+        </p>
+        <p data-key="video-title2-2" style="margin: -1px">
+          We offer a comprehensive range of polymers designed to address the unique requirements of your applications.
+        </p>
+        <div class="text-center">
+          <a href="#toscorllbt" class="btn" data-key="learn-more">Learn More</a>
+          <a href="#toscorllbt" class="btn btn2" data-key="learn-more">Learn More</a>
         </div>
-      </section>
-      <!-- End Video Section -->
-      <!----video bottom decoration--->
-      <!--
+      </div>
+    </section>
+    <!-- End Video Section -->
+    <!----video bottom decoration--->
+    <!--
     <div class="ftco-degree" id="toscorllbt"></div>
     <div class="ftco-degree-bottom"></div>
     -->
-      <!-- End Video decoration -->
+    <!-- End Video decoration -->
 
-      <!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
   ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <!-- START THE FEATURETTES -->
-      <div class="container marketing mt-5">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-semibold">
-              <span data-key="about-title1">About</span><span class="greened" data-key="about-title2">Us</span>
-            </h2>
-            <p class="lead fw-normal" data-key="what-we-do-text1">
-              We are Polytopia, specialized in recycling plastic materials such as High-Density Polyethylene (HDPE),
-              Low-Density Polyethylene (LDPE), and Polypropylene (PP). We transform plastic waste into high-quality raw
-              materials serving various sectors, while adhering to environmental standards and sustainability.
-            </p>
-            <p class="lead fw-normal" data-key="what-we-do-text2">
-              Integrated Recycling Services At Polytopia, we offer a comprehensive suite of plastic recycling services,
-              transforming waste into high-quality recycled plastic pellets ready for manufacturing
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img
-              src="assets/images/about_2.jpg"
-              class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              role="img"
-              aria-label=""
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false" />
-          </div>
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- START THE FEATURETTES -->
+    <div class="container marketing mt-5">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-semibold">
+            <span data-key="about-title1">About</span><span class="greened" data-key="about-title2">Us</span>
+          </h2>
+          <p class="lead fw-normal" data-key="what-we-do-text1">
+            We are Polytopia, specialized in recycling plastic materials such as High-Density Polyethylene (HDPE),
+            Low-Density Polyethylene (LDPE), and Polypropylene (PP). We transform plastic waste into high-quality raw
+            materials serving various sectors, while adhering to environmental standards and sustainability.
+          </p>
+          <p class="lead fw-normal" data-key="what-we-do-text2">
+            Integrated Recycling Services At Polytopia, we offer a comprehensive suite of plastic recycling services,
+            transforming waste into high-quality recycled plastic pellets ready for manufacturing
+          </p>
         </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-semibold" data-key="service-title1">
-              <span class="greened" data-key="service-title2">Our</span> Services
-            </h2>
-            <p class="lead fw-normal" data-key="service-text">
-              We specialize in recycling HDPE, LDPE, and PP, adhering to environmental standards and promoting
-              sustainability.
-            </p>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fas fa-recycle text-success me-2"></i
-                ><span data-key="serv-li1"
-                  >Material Sorting and Analysis: Identifying and categorizing plastic types for optimal
-                  processing.</span
-                >
-              </li>
-              <li>
-                <i class="fas fa-recycle text-success me-2"></i
-                ><span data-key="serv-li2">
-                  Washing and Thermal Treatment: Removing contaminants to ensure purity.</span
-                >
-              </li>
-              <li>
-                <i class="fas fa-recycle text-success me-2"></i
-                ><span data-key="serv-li3"> Shredding into Flakes: Reducing size for efficient handling.</span>
-              </li>
-              <li>
-                <i class="fas fa-recycle"></i
-                ><span data-key="serv-li4"> Pelletizing: Converting flakes into uniform pellets.</span>
-              </li>
-              <li>
-                <i class="fas fa-recycle"></i
-                ><span data-key="serv-li5"> Quality Inspection: Ensuring products meet industry standards.</span>
-              </li>
-              <li>
-                <i class="fas fa-recycle"></i
-                ><span data-key="serv-li6">
-                  Supplying Recycled Products: Delivering to manufacturers and businesses.</span
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img
-              src="assets/images/about_3.png"
-              class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto cycle"
-              width="500"
-              height="500"
-              role="img"
-              aria-label=""
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false" />
-          </div>
+        <div class="col-md-5">
+          <img src="assets/images/about_2.jpg"
+            class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+            role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
         </div>
+      </div>
 
-        <hr class="featurette-divider" />
+      <hr class="featurette-divider" />
 
-        <!-- Why Choose Us Section -->
-        <section class="banner-section">
-          <div class="feat bg-gray pt-5 pb-5">
-            <div class="container">
-              <div class="row">
-                <div class="section-head col-sm-12">
-                  <h2 class="featurette-heading fw-semibold"><span>Why Choose</span> Us?</h2>
-                  <p class="lead fw-normal lh-lg">
-                    At Polytopia, we believe recycling is more than a process it’s a responsibility. With a focus on
-                    quality and sustainability, we transform plastic waste into high-performance materials that help
-                    businesses thrive while reducing environmental impact. Our main objective is to consistently satisfy
-                    our customers by delivering exactly what they need at the highest quality and at competitive prices.
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-semibold" data-key="service-title1">
+            <span class="greened" data-key="service-title2">Our</span> Services
+          </h2>
+          <p class="lead fw-normal" data-key="service-text">
+            We specialize in recycling HDPE, LDPE, and PP, adhering to environmental standards and promoting
+            sustainability.
+          </p>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fas fa-recycle text-success me-2"></i><span data-key="serv-li1">Material Sorting and Analysis:
+                Identifying and categorizing plastic types for optimal
+                processing.</span>
+            </li>
+            <li>
+              <i class="fas fa-recycle text-success me-2"></i><span data-key="serv-li2">
+                Washing and Thermal Treatment: Removing contaminants to ensure purity.</span>
+            </li>
+            <li>
+              <i class="fas fa-recycle text-success me-2"></i><span data-key="serv-li3"> Shredding into Flakes: Reducing
+                size for efficient handling.</span>
+            </li>
+            <li>
+              <i class="fas fa-recycle"></i><span data-key="serv-li4"> Pelletizing: Converting flakes into uniform
+                pellets.</span>
+            </li>
+            <li>
+              <i class="fas fa-recycle"></i><span data-key="serv-li5"> Quality Inspection: Ensuring products meet
+                industry standards.</span>
+            </li>
+            <li>
+              <i class="fas fa-recycle"></i><span data-key="serv-li6">
+                Supplying Recycled Products: Delivering to manufacturers and businesses.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="assets/images/about_3.png"
+            class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto cycle" width="500" height="500"
+            role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+        </div>
+      </div>
 
-                    <span class="fw-semibold">Here’s how we make it happen:</span>
-                  </p>
+      <hr class="featurette-divider" />
+
+      <!-- Why Choose Us Section -->
+      <section class="banner-section">
+        <div class="feat bg-gray pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="section-head col-sm-12">
+                <h2 class="featurette-heading fw-semibold"><span>Why Choose</span> Us?</h2>
+                <p class="lead fw-normal lh-lg">
+                  At Polytopia, we believe recycling is more than a process it’s a responsibility. With a focus on
+                  quality and sustainability, we transform plastic waste into high-performance materials that help
+                  businesses thrive while reducing environmental impact. Our main objective is to consistently satisfy
+                  our customers by delivering exactly what they need at the highest quality and at competitive prices.
+
+                  <span class="fw-semibold">Here’s how we make it happen:</span>
+                </p>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_one"><i class="custom-icon1"></i></span>
+                  <h6>Collection & Documentation</h6>
+                  <p>Receive HDPE LDPE and PP waste and log its origin.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                  <div class="item">
-                    <span class="icon feature_box_col_one"><i class="custom-icon1"></i></span>
-                    <h6>Collection & Documentation</h6>
-                    <p>Receive HDPE LDPE and PP waste and log its origin.</p>
-                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_two"><i class="custom-icon2"></i></span>
+                  <h6>Sorting</h6>
+                  <p>Separate plastics by type using manual and mechanical methods .</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                  <div class="item">
-                    <span class="icon feature_box_col_two"><i class="custom-icon2"></i></span>
-                    <h6>Sorting</h6>
-                    <p>Separate plastics by type using manual and mechanical methods .</p>
-                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_three"><i class="custom-icon3"></i></span>
+                  <h6>Washing & Cleaning</h6>
+                  <p>Remove dirt oils and contaminants.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                  <div class="item">
-                    <span class="icon feature_box_col_three"><i class="custom-icon3"></i></span>
-                    <h6>Washing & Cleaning</h6>
-                    <p>Remove dirt oils and contaminants.</p>
-                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_four"><i class="custom-icon4"></i></span>
+                  <h6>Shredding</h6>
+                  <p>Convert clean plastics into uniform flakes</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                  <div class="item">
-                    <span class="icon feature_box_col_four"><i class="custom-icon4"></i></span>
-                    <h6>Shredding</h6>
-                    <p>Convert clean plastics into uniform flakes</p>
-                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_five"><i class="custom-icon5"></i></span>
+                  <h6>Pelletizing</h6>
+                  <p>Melt and extrude flakes into recycled plastic pellets</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                  <div class="item">
-                    <span class="icon feature_box_col_five"><i class="custom-icon5"></i></span>
-                    <h6>Pelletizing</h6>
-                    <p>Melt and extrude flakes into recycled plastic pellets</p>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                  <div class="item">
-                    <span class="icon feature_box_col_six"><i class="custom-icon6"></i></span>
-                    <h6>Quality Testing & Packaging</h6>
-                    <p>Inspect pellet properties and package to customer specifications</p>
-                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_six"><i class="custom-icon6"></i></span>
+                  <h6>Quality Testing & Packaging</h6>
+                  <p>Inspect pellet properties and package to customer specifications</p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- End Why Choose Us Section -->
+      <!-- End Why Choose Us Section -->
 
-        <!----- product----->
-        <section class="pro-section">
-          <div class="section-head">
-            <a href="product.html">
-              <h4><span>Our</span> Prouducts</h4>
-            </a>
-            <p>
-              Polytopia offers a wide range of premium plastic granules, covering all types and grades of raw materials
-              to suit diverse applications. Whether serving the local market or reaching customers worldwide, we are
-              committed to delivering products that meet exact specifications, ensuring reliability, consistency, and
-              exceptional value.
-            </p>
-          </div>
+      <!----- product----->
+      <section class="pro-section">
+        <div class="section-head">
+          <a href="product.html">
+            <h4><span>Our</span> Prouducts</h4>
+          </a>
+          <p>
+            Polytopia offers a wide range of premium plastic granules, covering all types and grades of raw materials
+            to suit diverse applications. Whether serving the local market or reaching customers worldwide, we are
+            committed to delivering products that meet exact specifications, ensuring reliability, consistency, and
+            exceptional value.
+          </p>
+        </div>
 
-          <div class="carousel-wrap">
-            <div class="owl-carousel">
-              <div class="item">
-                <a href="project-single.html" class="link-thumbnail">
-                  <h3 data-key="product-name2">Recycled LDPE Blown</h3>
-                  <i class="fas fa-info icon" style="color: #ffffff"></i>
-                  <img
-                    src="assets/images/Product%20(1).Jpeg"
-                    class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    role="img"
-                    aria-label=""
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false" />
-                </a>
-              </div>
-              <div class="item">
-                <a href="project-single.html" class="link-thumbnail">
-                  <h3 data-key="product-name2">Recycled HDPE Blow Molding</h3>
-                  <i class="fas fa-info icon" style="color: #ffffff"></i>
-                  <img
-                    src="assets/images/Product%20(2).jpeg"
-                    class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    role="img"
-                    aria-label=""
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false" />
-                </a>
-              </div>
-              <div class="item">
-                <a href="project-single.html" class="link-thumbnail">
-                  <h3 data-key="product-name2">Recycled HDPE Injection</h3>
-                  <i class="fas fa-info icon" style="color: #ffffff"></i>
-                  <img
-                    src="assets/images/Product%20(3).jpeg"
-                    class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    role="img"
-                    aria-label=""
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false" />
-                </a>
-              </div>
-              <div class="item">
-                <a href="project-single.html" class="link-thumbnail">
-                  <h3 data-key="product-name2">Recycled HDPE</h3>
-                  <i class="fas fa-info icon" style="color: #ffffff"></i>
-                  <img
-                    src="assets/images/Product%20(4).jpeg"
-                    class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    role="img"
-                    aria-label=""
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false" />
-                </a>
-              </div>
-              <div class="item">
-                <a href="project-single.html" class="link-thumbnail">
-                  <h3 data-key="product-name2">Recycled LDPE</h3>
-                  <i class="fas fa-info icon" style="color: #ffffff"></i>
-                  <img
-                    src="assets/images/Product%20(5).jpeg"
-                    class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    role="img"
-                    aria-label=""
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false" />
-                </a>
-              </div>
-              <div class="item">
-                <a href="project-single.html" class="link-thumbnail">
-                  <h3 data-key="product-name2">Recycled Polypropylene (P.P)</h3>
-                  <i class="fas fa-info icon" style="color: #ffffff"></i>
-                  <img
-                    src="assets/images/Product%20(6).jpeg"
-                    class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    role="img"
-                    aria-label=""
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false" />
-                </a>
-              </div>
+        <div class="carousel-wrap">
+          <div class="owl-carousel">
+            <div class="item">
+              <a href="project-single.html" class="link-thumbnail">
+                <h3 data-key="product-name2">Recycled LDPE Blown</h3>
+                <i class="fas fa-info icon" style="color: #ffffff"></i>
+                <img src="assets/images/Product%20(1).Jpeg"
+                  class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+                  role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="project-single.html" class="link-thumbnail">
+                <h3 data-key="product-name2">Recycled HDPE Blow Molding</h3>
+                <i class="fas fa-info icon" style="color: #ffffff"></i>
+                <img src="assets/images/Product%20(2).jpeg"
+                  class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+                  role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="project-single.html" class="link-thumbnail">
+                <h3 data-key="product-name2">Recycled HDPE Injection</h3>
+                <i class="fas fa-info icon" style="color: #ffffff"></i>
+                <img src="assets/images/Product%20(3).jpeg"
+                  class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+                  role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="project-single.html" class="link-thumbnail">
+                <h3 data-key="product-name2">Recycled HDPE</h3>
+                <i class="fas fa-info icon" style="color: #ffffff"></i>
+                <img src="assets/images/Product%20(4).jpeg"
+                  class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+                  role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="project-single.html" class="link-thumbnail">
+                <h3 data-key="product-name2">Recycled LDPE</h3>
+                <i class="fas fa-info icon" style="color: #ffffff"></i>
+                <img src="assets/images/Product%20(5).jpeg"
+                  class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+                  role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="project-single.html" class="link-thumbnail">
+                <h3 data-key="product-name2">Recycled Polypropylene (P.P)</h3>
+                <i class="fas fa-info icon" style="color: #ffffff"></i>
+                <img src="assets/images/Product%20(6).jpeg"
+                  class="featurette-img featurette-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+                  role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false" />
+              </a>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!----End------->
+      <!----End------->
 
-        <!--
+      <!--
         <hr class="featurette-divider" />
 
         <section id="contact" class="mb-4 fade-in">
@@ -503,90 +450,71 @@
         </section>
         -->
 
-        <!----End------->
-      </div>
-      <!-- /END THE FEATURETTES -->
-      <hr class="featurette-divider" />
+      <!----End------->
+    </div>
+    <!-- /END THE FEATURETTES -->
+    <hr class="featurette-divider" />
 
-      <!-- Contact Section -->
+    <!-- Contact Section -->
 
-      <section id="contact" class="mb-4 fade-in">
-        <h2 class="text-center" data-key="contact-title">Contact Us</h2>
-        <div class="contact-info text-center">
-          <a href="mailto:polytopiacompany@gmail.com"
-            ><i class="fas fa-envelope-square" style="margin: 0 10px"></i
-            ><span data-key="contact-email">Email: polytopiacompany@gmail.com</span></a
-          >
-          <div class="social-btn1">
-            <a
-              id="Facebook-cont"
-              target="_blank"
-              href="https://www.facebook.com/Polytopia.company/"
-              style="background: #146ebe">
-              <i class="fab fa-facebook" style="font-size: xx-large"></i>
-              <span style="direction: ltr !important">Facebook</span>
-            </a>
-            <a id="Instagram-cont" target="_blank" href="https://www.instagram.com/mohamedricotta/">
-              <i class="fab fa-instagram" style="font-size: xx-large"></i>
-              <span style="direction: ltr !important">Instagram</span>
-            </a>
-            <a
-              id="whatsapp-cont"
-              target="_blank"
-              style="background: #037c4e"
-              href="https://wa.me/+201113709166?text=Hello%2C%20Polytopia!%20I’m%20interested%20in%20your%20plastic%20raw%20materials%20and%20polymers.%20I%20would%20like%20to%20know%20more%20about%20your%20products.%20Could%20you%20please%20provide%20details%20on%20availability%2C%20pricing%2C%20and%20delivery%20options%3F%20Thank%20you!">
-              <i class="fab fa-whatsapp" style="font-size: xx-large"></i>
-              <span style="direction: ltr !important">Whatsapp</span>
-            </a>
-          </div>
-          <a
-            href="https://www.google.com/maps/dir/30.0386432,31.2419368/31.015247,29.8413954/@31.0151747,29.8411162,19.25z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D"
-            target="_blank"
-            rel="noopener"
-            style="margin: 10px 0"
-            ><i class="fas fa-industry" style="margin: 10px 10px"></i
-            ><span data-key="contact-loca"
-              >Location: Plastic Industries Complex - Unit 47- 48, Margham 2, Amreya, Alexandria</span
-            ></a
-          >
-
-          <div class="map-container text-center">
-            <iframe
-              title=""
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d689.2842516556311!2d29.84089786889574!3d31.01507795964577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5ed4a1df7613f%3A0x1c764b2a8d457873!2z2YXYrNmF2Lkg2YXYsdi62YUg2YTZhNi12YbYp9i52KfYqiDYp9mE2KjZhNin2LPYqtmK2YPZitip!5e0!3m2!1sen!2seg!4v1741240685927!5m2!1sen!2seg"
-              width="800"
-              height="600"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+    <section id="contact" class="mb-4 fade-in">
+      <h2 class="text-center" data-key="contact-title">Contact Us</h2>
+      <div class="contact-info text-center">
+        <a href="mailto:polytopiacompany@gmail.com"><i class="fas fa-envelope-square" style="margin: 0 10px"></i><span
+            data-key="contact-email">Email: polytopiacompany@gmail.com</span></a>
+        <div class="social-btn1">
+          <a id="Facebook-cont" target="_blank" href="https://www.facebook.com/Polytopia.company/"
+            style="background: #146ebe">
+            <i class="fab fa-facebook" style="font-size: xx-large"></i>
+            <span style="direction: ltr !important">Facebook</span>
+          </a>
+          <a id="Instagram-cont" target="_blank" href="https://www.instagram.com/mohamedricotta/">
+            <i class="fab fa-instagram" style="font-size: xx-large"></i>
+            <span style="direction: ltr !important">Instagram</span>
+          </a>
+          <a id="whatsapp-cont" target="_blank" style="background: #037c4e"
+            href="https://wa.me/+201113709166?text=Hello%2C%20Polytopia!%20I’m%20interested%20in%20your%20plastic%20raw%20materials%20and%20polymers.%20I%20would%20like%20to%20know%20more%20about%20your%20products.%20Could%20you%20please%20provide%20details%20on%20availability%2C%20pricing%2C%20and%20delivery%20options%3F%20Thank%20you!">
+            <i class="fab fa-whatsapp" style="font-size: xx-large"></i>
+            <span style="direction: ltr !important">Whatsapp</span>
+          </a>
         </div>
-      </section>
-      <!-- End Contact Section -->
+        <a href="https://www.google.com/maps/dir/30.0386432,31.2419368/31.015247,29.8413954/@31.0151747,29.8411162,19.25z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank" rel="noopener" style="margin: 10px 0"><i class="fas fa-industry"
+            style="margin: 10px 10px"></i><span data-key="contact-loca">Location: Plastic Industries Complex - Unit 47-
+            48, Margham 2, Amreya, Alexandria</span></a>
 
-      <!-- placeholder Section -->
-      <section class="banner-section">
-        <div class="feat bg-gray pt-5 pb-5">
-          <div class="container">
-            <div class="row">
-              <div class="section-head col-sm-12">
-                <h2 class="featurette-heading fw-semibold">Our <span>placeholder</span></h2>
-                <p class="lead fw-normal">placeholder</p>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                <h2 class="featurette-heading fw-normal lh-1"><span>placeholder</span>placeholder</h2>
-                <p class="lead fw-normal">placeholder</p>
-              </div>
+        <div class="map-container text-center">
+          <iframe title=""
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d689.2842516556311!2d29.84089786889574!3d31.01507795964577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5ed4a1df7613f%3A0x1c764b2a8d457873!2z2YXYrNmF2Lkg2YXYsdi62YUg2YTZhNi12YbYp9i52KfYqiDYp9mE2KjZhNin2LPYqtmK2YPZitip!5e0!3m2!1sen!2seg!4v1741240685927!5m2!1sen!2seg"
+            width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- placeholder Section -->
+    <section class="banner-section">
+      <div class="feat bg-gray pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="section-head col-sm-12">
+              <h2 class="featurette-heading fw-semibold">Our <span>placeholder</span></h2>
+              <p class="lead fw-normal">placeholder</p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h2 class="featurette-heading fw-normal lh-1"><span>placeholder</span>placeholder</h2>
+              <p class="lead fw-normal">placeholder</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- /.container -->
-    </main>
+    <!-- /.container -->
+  </main>
 
-    <!-- FOOTER -->
+  <!-- FOOTER -->
   <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-4 roundedtop">
     <div class="container">
       <img src="assets/images/polylogowhite.png" alt="Polytopia Logo" />
@@ -596,15 +524,16 @@
       <ul class="footer-links border-top py-3">
         <li><a href="index.html" data-key="footer-home">Home</a></li>
         <li><a href="about.html" data-key="footer-about">About</a></li>
-        <li><a href="#contact" data-key="footer-contact">Contact</a></li>
+        <li><a href="contact.html" data-key="footer-contact">Contact</a></li>
+
         <li><a href="documents.html" data-key="footer-documents">Documents</a></li>
         <li><a href="catalog.html" data-key="footer-catalog">Catalog</a></li>
         <li><a href="products.html" data-key="footer-products">Products</a></li>
-      </ul>
-      <ul>
-        <li><a href="hdpe.html" data-key="footer-hdpe">HDPE</a></li>
-        <li><a href="ldpe.html" data-key="footer-ldpe">LDPE</a></li>
-        <li><a href="pp.html" data-key="footer-pp">PP</li>
+        <ul>
+          <li><a href="hdpe.html" data-key="footer-products"> &ensp; HDPE</a></li>
+          <li><a href="ldpe.html" data-key="footer-products"> LDPE</a></li>
+          <li><a href="pp.html" data-key="footer-products">PP</a></li>
+        </ul>
       </ul>
       <div class="border-top" style="display: flex; justify-content: space-between">
         <p class="d-flex" style="margin-top: 15px">
@@ -633,10 +562,11 @@
     </div>
   </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/dist/js/owl.carousel.min.js"></script>
-    <script src="assets/dist/js/script.js"></script>
-    <script src="assets/dist/js/translate.js"></script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/dist/js/owl.carousel.min.js"></script>
+  <script src="assets/dist/js/script.js"></script>
+  <script src="assets/dist/js/translate.js"></script>
+</body>
+
 </html>
