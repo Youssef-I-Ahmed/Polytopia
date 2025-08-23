@@ -22,77 +22,66 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#home">
-            <img src="assets/images/polylogowhite.png" alt="Polytopia Logo" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link active" href="index.html" data-key="nav-home">Home</a></li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="products.html"
-                  id="ProductDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  data-key="nav-products">
-                  Products
-                </a>
+   <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/polylogowhite.png" alt="Polytopia Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" data-key="nav-home">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="products.html" id="ProductDropdown" role="button"
+                data-bs-toggle="dropdown" data-key="nav-products">
+                Products
+              </a>
 
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="hdpe.html" onclick="hdpe">HDPE</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="ldpe.html" onclick="ldpe">LDPE</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pp.html" onclick="pp"> PP</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#about" data-key="nav-about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#documents" data-key="nav-documents">Documents</a></li>
-              <li class="nav-item"><a class="nav-link" href="#catalog" data-key="nav-catalog">Catalog</a></li>
-              <li class="nav-item"><a class="nav-link" href="#blog" data-key="nav-blog">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact" data-key="nav-contact">Contact</a></li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="languageDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown">
-                  🌍 <span id="current-language">English</span>
-                </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="hdpe.html" onclick="hdpe">HDPE</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ldpe.html" onclick="ldpe">LDPE</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pp.html" onclick="pp"> PP</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#about" data-key="nav-about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" data-key="nav-contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#documents" data-key="nav-documents">Documents</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catalog" data-key="nav-catalog">Catalog</a></li>
 
-                <ul class="dropdown-menu language-selector">
-                  <li>
-                    <a class="dropdown-item" href="#" onclick="changeLanguage('en')"
-                      ><img src="https://flagcdn.com/w40/gb.png" alt="English" /> English</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" onclick="changeLanguage('ar')"
-                      ><img src="https://flagcdn.com/w40/eg.png" alt="Arabic" /> العربية</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" onclick="changeLanguage('tr')"
-                      ><img src="https://flagcdn.com/w40/tr.png" alt="Turkish" /> Türkçe</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                data-bs-toggle="dropdown">
+                🌍 <span id="current-language">English</span>
+              </a>
+
+              <ul class="dropdown-menu language-selector">
+                <li>
+                  <a class="dropdown-item" href="#" onclick="changeLanguage('en')"><img
+                      src="https://flagcdn.com/w40/gb.png" alt="English" /> English</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" onclick="changeLanguage('ar')"><img
+                      src="https://flagcdn.com/w40/eg.png" alt="Arabic" /> العربية</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" onclick="changeLanguage('tr')"><img
+                      src="https://flagcdn.com/w40/tr.png" alt="Turkish" /> Türkçe</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     </header>
 
     <main>
@@ -598,49 +587,51 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-4 roundedtop">
-      <div class="container">
-        <img src="assets/images/polylogowhite.png" alt="Polytopia Logo" />
-        <p data-key="footer-description">
-          Polytopia is dedicated to sustainable plastic recycling and innovative solutions.
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-4 roundedtop">
+    <div class="container">
+      <img src="assets/images/polylogowhite.png" alt="Polytopia Logo" />
+      <p data-key="footer-description">
+        Polytopia is dedicated to sustainable plastic recycling and innovative solutions.
+      </p>
+      <ul class="footer-links border-top py-3">
+        <li><a href="index.html" data-key="footer-home">Home</a></li>
+        <li><a href="about.html" data-key="footer-about">About</a></li>
+        <li><a href="#contact" data-key="footer-contact">Contact</a></li>
+        <li><a href="documents.html" data-key="footer-documents">Documents</a></li>
+        <li><a href="catalog.html" data-key="footer-catalog">Catalog</a></li>
+        <li><a href="products.html" data-key="footer-products">Products</a></li>
+      </ul>
+      <ul>
+        <li><a href="hdpe.html" data-key="footer-hdpe">HDPE</a></li>
+        <li><a href="ldpe.html" data-key="footer-ldpe">LDPE</a></li>
+        <li><a href="pp.html" data-key="footer-pp">PP</li>
+      </ul>
+      <div class="border-top" style="display: flex; justify-content: space-between">
+        <p class="d-flex" style="margin-top: 15px">
+          &copy;
+          <span data-key="copyrights">2025 Polytopia. All rights reserved. </span>
         </p>
-        <ul class="footer-links border-top py-3">
-          <li><a href="#home" data-key="footer-home">Home</a></li>
-          <li><a href="#about" data-key="footer-about">About</a></li>
-          <li><a href="#products" data-key="footer-products">Products</a></li>
-          <li><a href="#documents" data-key="footer-documents">Documents</a></li>
-          <li><a href="#catalog" data-key="footer-catalog">Catalog</a></li>
-          <li><a href="#blog" data-key="footer-blog">Blog</a></li>
-          <li><a href="#contact" data-key="footer-contact">Contact</a></li>
+        <ul class="footer-links justify-content-end list-unstyled d-flex" style="margin-top: 15px">
+          <li class="ms-3">
+            <a id="whatsapp" target="_blank"
+              href="https://wa.me/+201113709166?text=Hello%2C%20Polytopia!%20I’m%20interested%20in%20your%20plastic%20raw%20materials%20and%20polymers.%20I%20would%20like%20to%20know%20more%20about%20your%20products.%20Could%20you%20please%20provide%20details%20on%20availability%2C%20pricing%2C%20and%20delivery%20options%3F%20Thank%20you!">
+              <i class="fab fa-whatsapp" style="font-size: xx-large"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a id="Instagram" target="_blank" href="https://www.instagram.com/mohamedricotta/">
+              <i class="fab fa-instagram" style="font-size: xx-large"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a id="Facebook" target="_blank" href="https://www.facebook.com/Polytopia.company/">
+              <i class="fab fa-facebook" style="font-size: xx-large"></i>
+            </a>
+          </li>
         </ul>
-        <div class="border-top" style="display: flex; justify-content: space-between">
-          <p class="d-flex" style="margin-top: 15px">
-            &copy;
-            <span data-key="copyrights">2025 Polytopia. All rights reserved. </span>
-          </p>
-          <ul class="footer-links justify-content-end list-unstyled d-flex" style="margin-top: 15px">
-            <li class="ms-3">
-              <a
-                id="whatsapp"
-                target="_blank"
-                href="https://wa.me/+201113709166?text=Hello%2C%20Polytopia!%20I’m%20interested%20in%20your%20plastic%20raw%20materials%20and%20polymers.%20I%20would%20like%20to%20know%20more%20about%20your%20products.%20Could%20you%20please%20provide%20details%20on%20availability%2C%20pricing%2C%20and%20delivery%20options%3F%20Thank%20you!">
-                <i class="fab fa-whatsapp" style="font-size: xx-large"></i>
-              </a>
-            </li>
-            <li class="ms-3">
-              <a id="Instagram" target="_blank" href="https://www.instagram.com/mohamedricotta/">
-                <i class="fab fa-instagram" style="font-size: xx-large"></i>
-              </a>
-            </li>
-            <li class="ms-3">
-              <a id="Facebook" target="_blank" href="https://www.facebook.com/Polytopia.company/">
-                <i class="fab fa-facebook" style="font-size: xx-large"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
