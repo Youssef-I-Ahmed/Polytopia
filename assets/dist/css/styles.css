@@ -1223,23 +1223,11 @@ Prouduct Pages End
         height: 60px;
       }
     }
-    
- /* Hover dropdown only on desktop */
+
+  /* Hover dropdown only on desktop */
   @media (min-width: 992px) {
     .nav-item.dropdown:hover .dropdown-menu {
       display: block;
-      margin-top: 0; /* smooth positioning */
+      margin-top: 0; /* removes jumpiness */
     }
-
-    /* Show dropdown on hover when hovering anywhere over Products+caret */
-    .nav-item.dropdown:hover > .dropdown-toggle,
-    .nav-item.dropdown:hover > .nav-link {
-      color: var(--bs-primary); /* optional highlight */
-    }
-  }
-
-  /* Caret alignment */
-  .nav-item .dropdown-toggle::after {
-    margin-left: 0.3rem;
-    vertical-align: middle;
   }
