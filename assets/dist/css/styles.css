@@ -1231,3 +1231,14 @@ Prouduct Pages End
       margin-top: 0; /* removes jumpiness */
     }
   }
+@media (max-width: 991px) {
+    
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+}
+
+/*.navbar-collapse {
+    background: #04a45e2e;
+}*/
+}
