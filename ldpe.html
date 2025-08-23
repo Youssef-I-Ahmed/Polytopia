@@ -42,26 +42,28 @@
             <li class="nav-item"><a class="nav-link" href="about.html" data-key="nav-about">About</a></li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="products.html" id="ProductDropdown" role="button"
-                data-bs-toggle="dropdown" data-key="nav-products">
-                Products
-              </a>
+              <div class="d-flex align-items-center">
+                <!-- Main Products link -->
+                <a class="nav-link" href="products.html" data-key="nav-products">Products</a>
 
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="hdpe.html" onclick="hdpe">HDPE</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="ldpe.html" onclick="ldpe">LDPE</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="pp.html" onclick="pp"> PP</a>
-                </li>
-              </ul>
+                <!-- Separate dropdown toggle -->
+                <a class="nav-link dropdown-toggle dropdown-toggle-split" href="#" id="ProductDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="ProductDropdown" style="top: 80%;">
+                  <li><a class="dropdown-item" href="hdpe.html">HDPE</a></li>
+                  <li><a class="dropdown-item" href="ldpe.html">LDPE</a></li>
+                  <li><a class="dropdown-item" href="pp.html">PP</a></li>
+                </ul>
+              </div>
             </li>
-            <li class="nav-item"><a class="nav-link" href="contact.html" data-key="nav-contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" data-key="nav-contact">Contact</a>
+            </li>
             <li class="nav-item"><a class="nav-link" href="documents.html" data-key="nav-documents">Documents</a></li>
-            <li class="nav-item"><a class="nav-link" href="catalog.html" data-key="nav-catalog">Catalog</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html" data-key="nav-catalog">Catalog</a>
+            </li>
 
 
             <li class="nav-item dropdown">
@@ -92,7 +94,13 @@
   </header>
 
   <main>
+    <!-- Page Preloder -->
+    <div id="preloder"><img src="assets/images/poly.ico" alt="Loading" class="loader" /></div>
+    <!---End---->
 
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" onclick="scrollToTop()">▲</button>
+    <!----End Scroll to Top Button-->
     <!---Start Home_Section--->
     <section class="breadcrumbs ss-style-roundedsplit">
       <div class="darklayer">
