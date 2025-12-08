@@ -51,8 +51,7 @@ polytopia-website/
 ---
 
 ## 🚀 Live Demo  
-👉 [Click here to view the website](#) *(replace `#` with your GitHub Pages link when deployed)*  
-
+👉 [Click here to view the website](https://youssef-i-ahmed.github.io/Polytopia/)
 ---
 
 ## 📖 Installation & Usage  
