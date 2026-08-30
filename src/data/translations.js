@@ -6,7 +6,7 @@ export const translations = {
       exploreProducts: 'Explore Products', contactSales: 'Contact Sales', requestQuote: 'Request Quote', whatsapp: 'WhatsApp', sendEmail: 'Send Email', downloadProfile: 'Download Company Profile', downloadDatasheet: 'Download Datasheet', viewDetails: 'View Details', backToProducts: 'Back to Products', openMap: 'Open in Google Maps', allProducts: 'All Products'
     },
     home: {
-      heroEyebrow: 'We work for the environment',
+      heroEyebrow: 'Test Test We work for the environment',
       heroTitle: 'Recycled plastic materials for modern industries.',
       heroLead: 'Polytopia supplies high-quality recycled HDPE, PP, LDPE and LLDPE materials for local and global manufacturers from Alexandria, Egypt.',
       trust: {
